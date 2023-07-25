@@ -7,7 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import dev.samuel.teste.agenda.R;
-import dev.samuel.teste.agenda.menu_lateral;
+import dev.samuel.teste.agenda.view.menu_lateral;
 
 public class Splash extends AppCompatActivity {
 
