@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="senha">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="acessar">Acessar</string>
+    <string name="criar_conta">Ainda não tem uma conta? Crie agora.</string>
+    <string name="criar_nova_conta">Criar nova conta.</string>
+    <string name="novo_nome">Nome</string>
+    <string name="proximo">Próximo</string>
+    <string name="login">Já tenho uma conta.</string>
+    <string name="bemVindo">Bem-vindo</string>
+    <string name="criarEvento">Criar Evento</string>
+    <string name="NomeEvento">Nome do Evento</string>
+    <string name="data">01/01/2022</string>
+    <string name="hora">00:00</string>
+    <string name="LocalEvento">Local</string>
+    <string name="descricao">Detalhes</string>
+    <string name="salvar">Salvar</string>
+</resources>
