@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme.Agenda" parent="Base.Theme.Agenda" />
+
+    <style name="Theme.Agenda.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Agenda.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Agenda.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

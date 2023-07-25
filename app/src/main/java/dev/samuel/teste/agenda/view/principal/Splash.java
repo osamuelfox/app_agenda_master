@@ -7,6 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import dev.samuel.teste.agenda.R;
+import dev.samuel.teste.agenda.menu_lateral;
 
 public class Splash extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent telaPrincipal = new Intent(Splash.this,Mes_Activity.class);
+                Intent telaPrincipal = new Intent(Splash.this, menu_lateral.class);
                 startActivity(telaPrincipal);
                 finish();
             }
