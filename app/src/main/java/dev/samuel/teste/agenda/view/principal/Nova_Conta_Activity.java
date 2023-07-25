@@ -11,6 +11,6 @@ public class Nova_Conta_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nova_conta);
+        setContentView(R.layout.activity_form_nova_conta);
     }
 }

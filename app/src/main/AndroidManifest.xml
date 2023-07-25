@@ -21,11 +21,21 @@
             android:name=".view.principal.EventActivity"
             android:exported="false" />
         <activity
+            android:name=".view.principal.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.principal.FormActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.principal.Mes_Activity"
             android:exported="false" />
         <activity
             android:name=".view.principal.Nova_Conta_Activity"
             android:exported="false" />
+        <activity
+            android:name=".view.principal.UserActivity"
+            android:exported="false" />
+
         <activity
             android:name=".view.principal.MainActivity"
             android:exported="false" />
