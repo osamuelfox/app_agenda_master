@@ -12,6 +12,16 @@ import dev.samuel.teste.agenda.R;
 
 public class eventeFragment extends Fragment {
 
+    public eventeFragment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

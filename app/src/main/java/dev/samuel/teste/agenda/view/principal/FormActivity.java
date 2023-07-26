@@ -31,6 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import dev.samuel.teste.agenda.R;
+import dev.samuel.teste.agenda.view.menu_lateral;
 
 public class FormActivity extends AppCompatActivity {
 
@@ -97,7 +98,7 @@ public class FormActivity extends AppCompatActivity {
                     snackbar.setTextColor(Color.BLACK);
                     snackbar.show();
 
-                    Intent intent = new Intent(FormActivity.this, UserActivity.class);
+                    Intent intent = new Intent(FormActivity.this, menu_lateral.class);
                     startActivity(intent);
 
 

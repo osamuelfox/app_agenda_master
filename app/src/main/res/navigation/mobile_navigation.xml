@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="dev.samuel.teste.agenda.ui.slideshow.SlideshowFragment"
+        android:name="dev.samuel.teste.agenda.ui.Fragment.userFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/activity_user" />
 </navigation>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +18,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 
 import dev.samuel.teste.agenda.R;
+import dev.samuel.teste.agenda.ui.Fragment.eventeFragment;
 
 public class UserActivity extends AppCompatActivity {
 
@@ -37,6 +39,9 @@ public class UserActivity extends AppCompatActivity {
         bt_deslogar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Toast.makeText(UserActivity.this, " Desconectando ", Toast.LENGTH_SHORT).show();
+
                 FirebaseAuth.getInstance().signOut();
 
                 Intent intent = new Intent(UserActivity.this, LoginActivity.class);
@@ -73,7 +78,6 @@ public class UserActivity extends AppCompatActivity {
 
         nomeUsuario = findViewById(R.id.edit_userName);
         emailUsuario = findViewById(R.id.edit_userEmail);
-
         bt_deslogar = findViewById(R.id.bt_desconectar);
     }
 

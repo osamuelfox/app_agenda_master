@@ -16,7 +16,6 @@ class SlideshowFragment : Fragment() {
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -34,7 +33,6 @@ class SlideshowFragment : Fragment() {
         }
         return root
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

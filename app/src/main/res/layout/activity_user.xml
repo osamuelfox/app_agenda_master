@@ -22,7 +22,7 @@
                 android:id="@+id/imagem_user"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="80dp"
                 app:srcCompat="@drawable/user" />
 
             <TextView

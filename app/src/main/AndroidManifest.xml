@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Agenda"
         tools:targetApi="31">
-        <activity
-            android:name=".view.menu_lateral"
-            android:exported="false"
-            android:label="@string/title_activity_menu_lateral"
-            android:theme="@style/Theme.Agenda.NoActionBar" />
+<!--        <activity-->
+<!--            android:name=".view.menu_lateral"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_menu_lateral"-->
+<!--            android:theme="@style/Theme.Agenda.NoActionBar" />-->
         <activity
             android:name=".view.principal.EventActivity"
             android:exported="false" />

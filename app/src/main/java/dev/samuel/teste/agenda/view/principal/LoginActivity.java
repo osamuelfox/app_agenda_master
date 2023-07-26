@@ -25,6 +25,9 @@ import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.auth.FirebaseUser;
 
 import dev.samuel.teste.agenda.R;
+import dev.samuel.teste.agenda.ui.Fragment.eventeFragment;
+import dev.samuel.teste.agenda.ui.Fragment.userFragment;
+import dev.samuel.teste.agenda.view.menu_lateral;
 
 public class LoginActivity extends AppCompatActivity {
 
