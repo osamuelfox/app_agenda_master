@@ -1,4 +1,4 @@
-package dev.samuel.teste.agenda.view.principal;
+package dev.samuel.teste.agenda.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,13 +31,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import dev.samuel.teste.agenda.R;
-import dev.samuel.teste.agenda.view.menu_lateral;
+
 
 public class FormActivity extends AppCompatActivity {
 
     private EditText editNome, editEmail, editSenha;
     private Button btProximo;
-
     private TextView text_telaLogin;
     String[] mensagens = {"Preencha todos os campos", "Cadasro Realizado com sucesso"};
     String usuarioID;
@@ -98,7 +97,7 @@ public class FormActivity extends AppCompatActivity {
                     snackbar.setTextColor(Color.BLACK);
                     snackbar.show();
 
-                    Intent intent = new Intent(FormActivity.this, menu_lateral.class);
+                    Intent intent = new Intent(FormActivity.this,UserActivity.class);
                     startActivity(intent);
 
 

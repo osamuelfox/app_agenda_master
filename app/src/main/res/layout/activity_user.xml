@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azul"
+            android:elevation="3dp"
+            app:title="toolBar"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+    </LinearLayout>
 
     <ScrollView
 
@@ -34,7 +64,7 @@
                 android:text=""
                 android:textSize="20sp"
                 android:textStyle="bold"
-              />
+                />
 
             <TextView
                 android:id="@+id/edit_userEmail"
@@ -45,7 +75,7 @@
                 android:text=""
                 android:textColor="@color/cinza"
                 android:textSize="20sp"
-                 />
+                />
 
             <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -109,4 +139,5 @@
     </ScrollView>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

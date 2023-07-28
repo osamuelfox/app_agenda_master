@@ -1,4 +1,4 @@
-package dev.samuel.teste.agenda.view.principal;
+package dev.samuel.teste.agenda.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import dev.samuel.teste.agenda.R;
-import dev.samuel.teste.agenda.view.menu_lateral;
 
 public class Splash extends AppCompatActivity {
 
